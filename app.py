@@ -63,5 +63,6 @@ if __name__ == '__main__':
 
     pool.wait_completion()
 
+    # Displaying all accounts status
     for i,j in enumerate(cfn_status):
         print(j)
